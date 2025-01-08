@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+  border-bottom: 3px solid red;
+}
+
+.rating-container {
+  display: flex !important; /* Force stars to be in a row */
+  flex-direction: row !important; /* Explicitly enforce horizontal direction */
+  justify-content: center; /* Center stars */
+  gap: 10px; /* Space between stars */
+}
+
+svg.star-svg {
+  display: inline;
+}
+
+/* styles.css */
+.light {
+  background-color: #ffffff; /* Light background */
+  color: #000000;            /* Light text color */
+}
+
+.dark {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff;            /* Dark text color */
+}
+
+.navbar-bg, .footer-bg {
+  background-color: rgba(124, 112, 112, 0.1);
+}
+
