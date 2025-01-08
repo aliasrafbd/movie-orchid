@@ -6,6 +6,10 @@
 </div>
 
 
+<div align="center">
+  <img height="450" width="850" src="https://raw.githubusercontent.com/aliasrafbd/movie-orchid/refs/heads/main/movie.png"  />
+</div>
+
 1. **Name of the Project** <br>
    Movie-Orchid
 
